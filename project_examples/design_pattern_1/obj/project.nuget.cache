@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7ZOdxyGOeOCaHfvhZqd29f1F52hiAAOAkezLcwb7YbUw0xjin59n9Y/j7SKnOr5ayW9Q0toQbcK7DFU4rIZS8w==",
+  "dgSpecHash": "bbQ9H7Sam65+gWAvuwfpL/c1/FlPbn2XevRcLsetZbverTBzZW7Dmr4BnLzVm8Hg6vuIAqEDMAGjSQoAXEaKng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jgu\\Desktop\\Cours\\designPatterns\\project_examples\\design_pattern_1\\design_pattern_1.csproj",
+  "projectFilePath": "C:\\Users\\jgu\\Desktop\\Cours\\designPatterns\\project_examples\\design_pattern_1\\design_pattern_abstract_factory.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
