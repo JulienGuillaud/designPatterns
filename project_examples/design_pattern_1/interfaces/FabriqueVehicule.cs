@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace design_pattern_1
+public interface FabriqueVehicule
 {
-    public interface FabriqueVehicule
-    {
-        Automobile creerAutomobile(string modele, string couleur, int puissance, double espace);
-    }
+    Automobile creerAutomobile(string modele, string couleur, int puissance, double espace);
+    Scooter creerScooter(string modele, string couleur, int puissance);
 }

@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JaM4pCP2LsmyVSxJ5YbAKsCU8YI9rWXdf7JwB69bgeFeGjmOfOorFmZpccakzeDsaD2ilrLxnG9PDj08TdHHVA==",
+  "dgSpecHash": "7ZOdxyGOeOCaHfvhZqd29f1F52hiAAOAkezLcwb7YbUw0xjin59n9Y/j7SKnOr5ayW9Q0toQbcK7DFU4rIZS8w==",
   "success": true,
   "projectFilePath": "C:\\Users\\jgu\\Desktop\\Cours\\designPatterns\\project_examples\\design_pattern_1\\design_pattern_1.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\jgu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

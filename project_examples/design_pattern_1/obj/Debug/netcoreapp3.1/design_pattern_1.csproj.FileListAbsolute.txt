@@ -1,0 +1,5 @@
+C:\Users\jgu\Desktop\Cours\designPatterns\project_examples\design_pattern_1\obj\Debug\netcoreapp3.1\design_pattern_1.csproj.AssemblyReference.cache
+C:\Users\jgu\Desktop\Cours\designPatterns\project_examples\design_pattern_1\obj\Debug\netcoreapp3.1\design_pattern_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jgu\Desktop\Cours\designPatterns\project_examples\design_pattern_1\obj\Debug\netcoreapp3.1\design_pattern_1.AssemblyInfoInputs.cache
+C:\Users\jgu\Desktop\Cours\designPatterns\project_examples\design_pattern_1\obj\Debug\netcoreapp3.1\design_pattern_1.AssemblyInfo.cs
+C:\Users\jgu\Desktop\Cours\designPatterns\project_examples\design_pattern_1\obj\Debug\netcoreapp3.1\design_pattern_1.csproj.CoreCompileInputs.cache

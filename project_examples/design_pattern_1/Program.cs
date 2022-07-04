@@ -1,14 +1,12 @@
 ﻿using System;
 
-namespace design_pattern_1
+
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Abstract factory");
-            Catalogue catalogue = new Catalogue();
-            
-        }
+        Console.WriteLine("Abstract factory");
+        Catalogue catalogue = new Catalogue();
+        
     }
 }

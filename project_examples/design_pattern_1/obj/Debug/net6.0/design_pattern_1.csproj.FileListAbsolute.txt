@@ -1,0 +1,15 @@
+C:\Users\jgu\Desktop\Cours\designPatterns\project_examples\design_pattern_1\obj\Debug\net6.0\design_pattern_1.csproj.AssemblyReference.cache
+C:\Users\jgu\Desktop\Cours\designPatterns\project_examples\design_pattern_1\obj\Debug\net6.0\design_pattern_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jgu\Desktop\Cours\designPatterns\project_examples\design_pattern_1\obj\Debug\net6.0\design_pattern_1.AssemblyInfoInputs.cache
+C:\Users\jgu\Desktop\Cours\designPatterns\project_examples\design_pattern_1\obj\Debug\net6.0\design_pattern_1.AssemblyInfo.cs
+C:\Users\jgu\Desktop\Cours\designPatterns\project_examples\design_pattern_1\obj\Debug\net6.0\design_pattern_1.csproj.CoreCompileInputs.cache
+C:\Users\jgu\Desktop\Cours\designPatterns\project_examples\design_pattern_1\bin\Debug\net6.0\design_pattern_1.exe
+C:\Users\jgu\Desktop\Cours\designPatterns\project_examples\design_pattern_1\bin\Debug\net6.0\design_pattern_1.deps.json
+C:\Users\jgu\Desktop\Cours\designPatterns\project_examples\design_pattern_1\bin\Debug\net6.0\design_pattern_1.runtimeconfig.json
+C:\Users\jgu\Desktop\Cours\designPatterns\project_examples\design_pattern_1\bin\Debug\net6.0\design_pattern_1.dll
+C:\Users\jgu\Desktop\Cours\designPatterns\project_examples\design_pattern_1\bin\Debug\net6.0\design_pattern_1.pdb
+C:\Users\jgu\Desktop\Cours\designPatterns\project_examples\design_pattern_1\obj\Debug\net6.0\design_pattern_1.dll
+C:\Users\jgu\Desktop\Cours\designPatterns\project_examples\design_pattern_1\obj\Debug\net6.0\refint\design_pattern_1.dll
+C:\Users\jgu\Desktop\Cours\designPatterns\project_examples\design_pattern_1\obj\Debug\net6.0\design_pattern_1.pdb
+C:\Users\jgu\Desktop\Cours\designPatterns\project_examples\design_pattern_1\obj\Debug\net6.0\design_pattern_1.genruntimeconfig.cache
+C:\Users\jgu\Desktop\Cours\designPatterns\project_examples\design_pattern_1\obj\Debug\net6.0\ref\design_pattern_1.dll
