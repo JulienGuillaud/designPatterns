@@ -1,24 +1,36 @@
 Cours de design pattern
 =======================
+Sommaire : 
+- [Cours de design pattern](#cours-de-design-pattern)
+- [Notation](#notation)
+- [Définition](#définition)
+- [Les design patterns](#les-design-patterns)
+  - [Les Patterns de construction](#les-patterns-de-construction)
+    - [Abstract factory](#abstract-factory)
+      - [Quelques rappels](#quelques-rappels)
+    - [Pattern builder](#pattern-builder)
+    - [Factory method](#factory-method)
+<br>
+<br>
+<br>
 
-## Notation : 
+# Notation
 - A rendre
   - Projet applis console avec les design patterns appris
   - QCM
 
 Slide avec résumé a la fin
 
-## Définition :
+# Définition
 - Ce sont des schémas d'objets qui permettent de trouver une solution à un problème courrant
 - Il srépondent a un problème de conception POO
 - Ils résultent de méthodes de bonne pratiques en POO
 
-## Les Patterns :
-
-Il existe 23 patterns
+# Les design patterns
+Il existe 23 patterns principaux
+## Les Patterns de construction
 
 ### Abstract factory
-
 <img src="images/abstract_factory.png" alt="Abstract factory" width="400"/>
 
 Au lieu de créer une classe mère __``Catalogue``__ surchargée de fonctions
@@ -44,7 +56,7 @@ Le catalogue peut créer des vehicules peu importe son type
 Diagramme + générique :
 <img src="images/abstract_factory_2.png" alt="Abstract factory" width="400"/>
 
-### Quelques rappels :
+#### Quelques rappels
 Une classe abstraite n'est pas isntanciable
 Les attributs peuvent être :
 - public (accessible de partout)
@@ -64,3 +76,34 @@ public class FabriqueAutomobileELectrique : FabriqueVehicule{
 }
 ```
 Voir exemple complet ici dans ``project_example/design_pattern_1/``
+
+### Pattern builder
+
+Le but du pattern builder est de créer un document sans connaitre le type de celui-ci
+
+Peu importe l'implementatition des instances le client va dialoguer qu'avec le builder de base
+
+Le but de ce design pattern est de séparer la logique type de la logique de création d'une liasse de document
+
+Pourquoi ? Car logique métier redondant, le pattern sert a mettre un nom sur la logique "Je veux créer un document"
+
+Exemple concret :
+<img src="images/pattern_builder_2.png" alt="Abstract factory" width="400"/>
+Diagramme + générique : 
+<img src="images/pattern_builder.png" alt="Abstract factory" width="200"/>
+
+
+### Factory method
+
+
+
+Exemple concret :
+<img src="images/factory_method.png" alt="Abstract factory" width="400"/>
+
+
+__``Commande``__ est une classe abstraite qui liste les elements géneriques a une commande quelles qu'elles soient
+
+Diagramme + générique :
+
+<img src="images/factory_method_2.png" alt="Abstract factory" width="200"/>
+
