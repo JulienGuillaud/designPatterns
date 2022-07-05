@@ -15,5 +15,8 @@ public class Utilisateur
           "Durant");
         liasseClient1.affiche();
         liasseClient2.affiche();
+        Vendeur vendeur = Vendeur.Instance();
+        vendeur.ajoute(new InfosVendeur());
+        vendeur.imprimeAll();
     }
 }
