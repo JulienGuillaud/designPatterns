@@ -119,3 +119,16 @@ Notre application va utiliser la classe liasse vierge (LiasseVierge) qui ne poss
 Le pattern prototype permet la création d'objets à partir d'autres objets appelés "prototypes" disposan d'une méthode Clone() qui retourne un objet identique
 
 <img src="images/prototype.png" alt="Abstract factory" width="200"/>
+
+### Adapter
+
+## EXERCICE
+### Composition vs Héritage en c#
+
+La composition signifie que la classe mere est composée de plusieurs autres classes. Celles ci ne sont pas dependantes de la classe mere
+
+L'heritage signifie que la classe fille est une précision de la classe mère. La classe fille ne peut pas vivre sans la classe mere
+
+Exemple : 
+- Composition : Une voiture est composée d'un moteur, de roues. Une roue peut ne pas avoir de voiture. La classe mere n'est pas obligatoire
+- Héritage : La classe marque hérite de la classe voiture. Une ``Renault`` EST une voiture. La classe marque ne peut pas vivre sans une voiture.
