@@ -10,6 +10,10 @@ Sommaire :
       - [Quelques rappels](#quelques-rappels)
     - [Pattern builder](#pattern-builder)
     - [Factory method](#factory-method)
+    - [Singleton](#singleton)
+    - [Adapter](#adapter)
+  - [EXERCICES](#exercices)
+    - [Composition vs Héritage en c#](#composition-vs-héritage-en-c)
 <br>
 
 # Notation
@@ -29,7 +33,7 @@ Il existe 23 patterns principaux
 ## Les Patterns de construction
 
 ### Abstract factory
-<img src="images/abstract_factory.png" alt="Abstract factory" width="400"/>
+<img src="images/abstract_factory.png" alt="Abstract factory 1" width="400"/>
 
 Au lieu de créer une classe mère __``Catalogue``__ surchargée de fonctions
 A chaque fois qu'une nouvelle famille de vehicule est prise en compte
@@ -52,7 +56,7 @@ Le catalogue peut créer des vehicules peu importe son type
 
 
 Diagramme + générique :
-<img src="images/abstract_factory_2.png" alt="Abstract factory" width="400"/>
+<img src="images/abstract_factory_2.png" alt="Abstract factory 2" width="400"/>
 
 #### Quelques rappels
 Une classe abstraite n'est pas isntanciable
@@ -86,9 +90,9 @@ Le but de ce design pattern est de séparer la logique type de la logique de cr�
 Pourquoi ? Car logique métier redondant, le pattern sert a mettre un nom sur la logique "Je veux créer un document"
 
 Exemple concret :
-<img src="images/pattern_builder_2.png" alt="Abstract factory" width="400"/>
+<img src="images/pattern_builder_2.png" alt="Pattern builder 2" width="400"/>
 Diagramme + générique : 
-<img src="images/pattern_builder.png" alt="Abstract factory" width="200"/>
+<img src="images/pattern_builder.png" alt="Pettern builder" width="200"/>
 
 
 ### Factory method
@@ -96,14 +100,14 @@ Diagramme + générique :
 
 
 Exemple concret :
-<img src="images/factory_method.png" alt="Abstract factory" width="400"/>
+<img src="images/factory_method.png" alt="Factory method 1" width="400"/>
 
 
 __``Commande``__ est une classe abstraite qui liste les elements géneriques a une commande quelles qu'elles soient
 
 Diagramme + générique :
 
-<img src="images/factory_method_2.png" alt="Abstract factory" width="200"/>
+<img src="images/factory_method_2.png" alt="Factory method 2" width="400"/>
 
 ### Singleton
 
@@ -111,24 +115,35 @@ Permet d'avoir 1 seule instance d'une classe
 
 Notre application va utiliser la classe liasse vierge (LiasseVierge) qui ne possedera qu'une seule instance
 
-<img src="images/singleton.png" alt="Abstract factory" width="200"/>
-<img src="images/singleton_2.png" alt="Abstract factory" width="200"/>
+<img src="images/singleton.png" alt="Singleton 1" width="400"/>
+<img src="images/singleton_2.png" alt="Singleton 2" width="400"/>
 
 ### Prototype
 
-Le pattern prototype permet la création d'objets à partir d'autres objets appelés "prototypes" disposan d'une méthode Clone() qui retourne un objet identique
+Le pattern prototype permet la création d'objets à partir d'autres objets appelés ``prototypes`` disposant d'une méthode Clone() qui retourne un objet identique
 
-<img src="images/prototype.png" alt="Abstract factory" width="200"/>
+<img src="images/prototype.png" alt="Prototype" width="300"/>
 
 ### Adapter
+Le but de ce pattern est de ``convertir`` l'``interface`` c'une classe donnée en une ``interface`` ``attendue`` par des clients afin qu'il s puissent travailler ensembles.
+En résumer, il permet de donner à une classe existante une nouvelle interface pour répondre aux besoins d'un client.
 
-## EXERCICE
+<img src="images/adapter_1.png" alt="Prototype" width="400"/>
+
+``DocumentHtml`` hérite de ``Document``
+
+``DocumentPdf`` hérite de ``Document`` et est composé de un ou plusieurs ``ComposantsPdf``
+
+Dans ce cas, la classe ``DocumentPdf`` adapte ``ComposantPdf``
+
+
+## EXERCICES
 ### Composition vs Héritage en c#
 
-La composition signifie que la classe mere est composée de plusieurs autres classes. Celles ci ne sont pas dependantes de la classe mere
+La ``composition`` signifie que la classe mere est ``composée`` de plusieurs autres classes. Celles ci ne sont ``pas dependantes`` de la classe ``mere``
 
-L'heritage signifie que la classe fille est une précision de la classe mère. La classe fille ne peut pas vivre sans la classe mere
+L'``heritage`` signifie que la classe fille est une ``précision`` de la classe mère. La classe fille ``ne peut pas ``vivre sans la classe mere
 
 Exemple : 
-- Composition : Une voiture est composée d'un moteur, de roues. Une roue peut ne pas avoir de voiture. La classe mere n'est pas obligatoire
-- Héritage : La classe marque hérite de la classe voiture. Une ``Renault`` EST une voiture. La classe marque ne peut pas vivre sans une voiture.
+- ``Composition`` : Une voiture est composée d'un moteur, de roues. Une roue peut ne pas avoir de voiture. La classe mere n'est pas obligatoire
+- ``Héritage`` : La classe marque hérite de la classe voiture. Une ``Renault`` EST une voiture. La classe marque ne peut pas vivre sans une voiture.

@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "design_pattern_prototype_si
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "design_pattern_factory_method", "..\design_pattern_factory_method\design_pattern_factory_method.csproj", "{DBBC2924-850D-4D5E-AA7C-529A65912BF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "design_pattern_adapter", "..\design_pattern_adapter\design_pattern_adapter.csproj", "{7B915AB9-E8CB-4B42-974F-2C3BF5965C02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DBBC2924-850D-4D5E-AA7C-529A65912BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBBC2924-850D-4D5E-AA7C-529A65912BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBBC2924-850D-4D5E-AA7C-529A65912BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B915AB9-E8CB-4B42-974F-2C3BF5965C02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B915AB9-E8CB-4B42-974F-2C3BF5965C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B915AB9-E8CB-4B42-974F-2C3BF5965C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B915AB9-E8CB-4B42-974F-2C3BF5965C02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
