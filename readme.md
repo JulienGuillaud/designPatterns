@@ -11,8 +11,6 @@ Sommaire :
     - [Pattern builder](#pattern-builder)
     - [Factory method](#factory-method)
 <br>
-<br>
-<br>
 
 # Notation
 - A rendre
@@ -107,3 +105,17 @@ Diagramme + générique :
 
 <img src="images/factory_method_2.png" alt="Abstract factory" width="200"/>
 
+### Singleton
+
+Permet d'avoir 1 seule instance d'une classe
+
+Notre application va utiliser la classe liasse vierge (LiasseVierge) qui ne possedera qu'une seule instance
+
+<img src="images/singleton.png" alt="Abstract factory" width="200"/>
+<img src="images/singleton_2.png" alt="Abstract factory" width="200"/>
+
+### Prototype
+
+Le pattern prototype permet la création d'objets à partir d'autres objets appelés "prototypes" disposan d'une méthode Clone() qui retourne un objet identique
+
+<img src="images/prototype.png" alt="Abstract factory" width="200"/>

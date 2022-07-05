@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "design_pattern_abstract_factory", "design_pattern_abstract_factory.csproj", "{4833A30A-FAED-46B6-B222-C9DAE8B7DD51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "design_pattern_builder", "..\design_pattern_builder\design_pattern_builder.csproj", "{F3A601F5-B25B-4CE3-9514-5B2C160D637C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "design_pattern_builder", "..\design_pattern_builder\design_pattern_builder.csproj", "{F3A601F5-B25B-4CE3-9514-5B2C160D637C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "design_pattern_prototype_singleton", "..\design_pattern_singleton\design_pattern_prototype_singleton.csproj", "{EC0B831A-FF58-4D6F-93D0-942E6E915F1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F3A601F5-B25B-4CE3-9514-5B2C160D637C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3A601F5-B25B-4CE3-9514-5B2C160D637C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3A601F5-B25B-4CE3-9514-5B2C160D637C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC0B831A-FF58-4D6F-93D0-942E6E915F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC0B831A-FF58-4D6F-93D0-942E6E915F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC0B831A-FF58-4D6F-93D0-942E6E915F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC0B831A-FF58-4D6F-93D0-942E6E915F1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
