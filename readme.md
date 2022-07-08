@@ -11,7 +11,14 @@ Sommaire :
     - [Pattern builder](#pattern-builder)
     - [Factory method](#factory-method)
     - [Singleton](#singleton)
+    - [Prototype](#prototype)
+  - [Les Patterns de structuration](#les-patterns-de-structuration)
     - [Adapter](#adapter)
+    - [Bridge](#bridge)
+    - [Decorator](#decorator)
+  - [Les Patterns de comportement](#les-patterns-de-comportement)
+    - [Chain of responsability](#chain-of-responsability)
+    - [Command](#command)
   - [EXERCICES](#exercices)
     - [Composition vs Héritage en c#](#composition-vs-héritage-en-c)
 <br>
@@ -124,17 +131,81 @@ Le pattern prototype permet la création d'objets à partir d'autres objets appe
 
 <img src="images/prototype.png" alt="Prototype" width="300"/>
 
+## Les Patterns de structuration
+
 ### Adapter
 Le but de ce pattern est de ``convertir`` l'``interface`` c'une classe donnée en une ``interface`` ``attendue`` par des clients afin qu'il s puissent travailler ensembles.
 En résumer, il permet de donner à une classe existante une nouvelle interface pour répondre aux besoins d'un client.
 
-<img src="images/adapter_1.png" alt="Prototype" width="400"/>
+<img src="images/adapter_1.png" alt="Adapter" width="400"/>
 
 ``DocumentHtml`` hérite de ``Document``
 
 ``DocumentPdf`` hérite de ``Document`` et est composé de un ou plusieurs ``ComposantsPdf``
 
 Dans ce cas, la classe ``DocumentPdf`` adapte ``ComposantPdf``
+
+### Bridge
+
+<img src="images/bridge.png" alt="Bridge" width="400"/>
+
+Diagramme + générique
+<img src="images/bridge_2.png" alt="Bridge 2" width="400"/>
+
+Le pattern ``Bridge`` est utilisé pour séparer le compretement de l'implémentation de l'``interface`` et de l'implémentation de l'``objet``
+
+Exemple :
+
+On s'intéresse aux demandes d'immatriculation des véhicules. Le formulaire de demande d'immatriculation possède deux implémentations différentes :
+- FormulaireImmat
+- FormulaireImmatHTML
+- FormulaireImmatAPP
+
+Au départ le système a été conçu pour la France uniquement. Ensuite on a du créer une sous-classe de FormulaireImmatCH (suisse)
+Elle aussi est abstraite pour avoir également deux sous-classes concrètes (qui sont FormulaireImmatHTML et FormulaireImmatAPP dédiées à la suisse)
+
+
+
+### Composite
+
+<img src="images/composite.png" alt="Composite" width="400"/>
+
+Diagramme + générique
+<img src="images/composite_2.png" alt="Composite 2" width="400"/>
+
+Ce pattern offre un cadre de conception d'une composition d'objet dont on ne connait pas la profondeur. (On peut utiliser un arbre en tant qu'analogie)
+
+Les "clients" interagissent avec les objets sans connaitre la structure de l'arbre
+
+### Decorator
+
+Ce pattern permet d'ajouter ``Dynamiquement`` les fonctionnalitées ``Suplémentaires`` à un objet sans modifier l'interface de l'objet ("Les lients de l'objet ne sont pas su courant de la modification")
+
+Il s'agit d'une alternative à la création d'une sous-classe qui permettrait d'enrichir l'objet
+
+## Les Patterns de comportement
+
+Les patterns de comportement distribuent les algorithmes/traitements entre les objets
+Ils organisent les interactions en renseignant le "flux de controle" et de traitement au sein d'un système d'objets
+
+La distribution se fait soit par ``héritage`` soit par ``délégation``
+
+### Chain of responsability
+
+<img src="images/chain_of_responsability.png" alt="Chain of responsability" width="400"/>
+
+Plus générique
+
+<img src="images/chain_of_responsability_2.png" alt="Chain of responsability" width="400"/>
+<img src="images/chain_of_responsability_3.png" alt="Chain of responsability" width="400"/>
+
+
+Le but est de construire une chaine d'objets de manière a ce que si un objet de la chaine ne peut répondre à une requête, il puisse la passerà un ``successeur`` et ainsi de suite jusqu'à ce que l'un des objest puissent y répondre
+
+### Command
+
+Ce pattern transforme une requête en objet. Ceci facilite les opérations relatives à la requête ex: Annulation, queue, suivi, etc...
+
 
 
 ## EXERCICES
