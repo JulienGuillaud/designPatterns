@@ -4,6 +4,14 @@ public class Seller
 {
     static void Main(string[] args)
     {
+        /* 
+         * Design patterns in this project :
+         *    - Singleton (Printer)
+         *    - Factory (Printer)
+         *    - Composite (Car with CarBrand and CarModel
+        */
+
+
         // I create some car brands and model
         CarBrand renault = new CarBrand("Renault");
         CarBrand peugeot = new CarBrand("Peugeot");
