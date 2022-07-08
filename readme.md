@@ -15,6 +15,7 @@ Sommaire :
   - [Les Patterns de structuration](#les-patterns-de-structuration)
     - [Adapter](#adapter)
     - [Bridge](#bridge)
+    - [Composite](#composite)
     - [Decorator](#decorator)
   - [Les Patterns de comportement](#les-patterns-de-comportement)
     - [Chain of responsability](#chain-of-responsability)
@@ -63,6 +64,7 @@ Le catalogue peut créer des vehicules peu importe son type
 
 
 Diagramme + générique :
+
 <img src="images/abstract_factory_2.png" alt="Abstract factory 2" width="400"/>
 
 #### Quelques rappels
@@ -97,8 +99,10 @@ Le but de ce design pattern est de séparer la logique type de la logique de cr�
 Pourquoi ? Car logique métier redondant, le pattern sert a mettre un nom sur la logique "Je veux créer un document"
 
 Exemple concret :
+
 <img src="images/pattern_builder_2.png" alt="Pattern builder 2" width="400"/>
-Diagramme + générique : 
+Diagramme + générique :
+
 <img src="images/pattern_builder.png" alt="Pettern builder" width="200"/>
 
 
@@ -107,6 +111,7 @@ Diagramme + générique :
 
 
 Exemple concret :
+
 <img src="images/factory_method.png" alt="Factory method 1" width="400"/>
 
 
@@ -150,6 +155,7 @@ Dans ce cas, la classe ``DocumentPdf`` adapte ``ComposantPdf``
 <img src="images/bridge.png" alt="Bridge" width="400"/>
 
 Diagramme + générique
+
 <img src="images/bridge_2.png" alt="Bridge 2" width="400"/>
 
 Le pattern ``Bridge`` est utilisé pour séparer le compretement de l'implémentation de l'``interface`` et de l'implémentation de l'``objet``
@@ -171,6 +177,7 @@ Elle aussi est abstraite pour avoir également deux sous-classes concrètes (qui
 <img src="images/composite.png" alt="Composite" width="400"/>
 
 Diagramme + générique
+
 <img src="images/composite_2.png" alt="Composite 2" width="400"/>
 
 Ce pattern offre un cadre de conception d'une composition d'objet dont on ne connait pas la profondeur. (On peut utiliser un arbre en tant qu'analogie)
